@@ -1,0 +1,586 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Kitchen</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <style>
+        body {
+            background-image: url(kitchen\ wp.jpeg);
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+
+
+        #carouselExampleCaptions {
+            width: 100%;
+            max-width: 800px;
+            margin: auto;
+            background-color: #8a8484;
+        }
+
+        .carousel-inner {
+            width: 100%;
+            height: 100%;
+        }
+
+        .carousel-inner img {
+            width: 100%;
+            height: 400px;
+            object-fit: cover;
+        }
+
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #f0f0f0;
+            padding: 20px;
+            margin: 20px auto;
+            max-width: 1200px;
+
+        }
+
+        .item {
+            background-color: #4CAF50;
+            color: white;
+            padding: 20px;
+            margin: 10px;
+            flex: 1 1 200px;
+            font-family: 'Roboto', sans-serif;
+            font-size: 20px;
+        }
+
+        h1,
+        h2,
+        h3 {
+            color: #0e0d0d;
+        }
+
+        ul {
+            list-style-type: none;
+            padding-left: 0;
+        }
+
+        ul li::before {
+            content: '•';
+            color: #0275d8;
+            display: inline-block;
+            width: 1em;
+            margin-left: -2px;
+        }
+
+        .project-btn {
+            margin: 10px;
+        }
+
+        .align-left {
+            text-align: left;
+        }
+
+        footer {
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            background-color: #343a40;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+        }
+
+        @media (max-width: 768px) {
+            .item {
+                flex: 1 1 100%;
+                margin: 5px 0;
+            }
+        }
+    </style>
+
+</head>
+
+<body>
+    <h1 class="mt-4"
+        style="background-color: rgb(255, 0, 149); text-align: center; font-family: Georgia, 'Times New Roman', Times, serif; font-size: xx-large;">
+        Welcome to My Kitchen</h1>
+    <div class="container">
+        <div class="item">
+            <a href="#chinese" style="color: rgb(247, 244, 244); text-decoration: none;">Chinese Cuisine</a>
+        </div>
+
+        <div class="item">
+            <a href="#indian" style="color: rgb(247, 244, 244); text-decoration: none;">Indian Cuisine</a>
+        </div>
+        <div class="item">
+            <a href="#srilankan" style="color: rgb(247, 244, 244); text-decoration: none;">Sri Lankan Cuisine</a>
+        </div>
+        <div class="item">
+            <a href="#arabian" style="color: rgb(247, 244, 244); text-decoration: none;">Arabian Cuisine</a>
+        </div>
+
+    </div>
+
+    <marquee
+        style="background-color: rgb(151, 208, 241); font-style: oblique; font-family: 'Times New Roman', Times, serif; color: darkred;">
+        A Global Food Experience From Us To You...Call Us 0777676767</marquee>
+    <br>
+    <div id="carouselExampleCaptions" class="carousel slide">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3"
+                aria-label="Slide 4"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4"
+                aria-label="Slide 5"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="5"
+                aria-label="Slide 6"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="6"
+                aria-label="Slide 7"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="7"
+                aria-label="Slide 8"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="angela.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Chinese Cuisine</h5>
+                    <p style="color: rgb(15, 15, 14); background-color: #f0f0f0;">Embark on a Culinary Journey Through
+                        the Rich and Diverse Flavors of Chinese Cuisine...Slide For More..</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="angela1.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5 style="color: whitesmoke;">Chinese for u....</h5>
+                    <p style="color: rgb(139, 34, 34); background-color: beige;">Come And Enjoy The Taste.....</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="laddu.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Indian Cuisine</h5>
+                    <p style="color: black; background-color: #f0f0f0;">Experience the Vibrant and Spicy Symphony of
+                        Authentic Indian Cuisine.....</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="naan.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Taste Of Indiana......</h5>
+                    <p style="color: rgb(185, 30, 30); background-color: #f0f0f0;">Delight in the Rich and Diverse
+                        Flavors of India's Culinary Heritage.....</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="srilankan food.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Sri Lankan Cuisine</h5>
+                    <p style="color: black; background-color: #f0f0f0;">Savor the Exotic and Spicy Delights of Sri
+                        Lankan Cuisine......</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="hopper.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Taste Of Ceylon......</h5>
+                    <p style="color: rgb(185, 30, 30); background-color: #f0f0f0;">Savor the Essence of Sri Lanka with
+                        Every Bite......</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="baklava.jpeg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Arabian Cuisine</h5>
+                    <p style="color: black; background-color: #f0f0f0;">Indulge in the Rich Tapestry of Arabian
+                        Flavors.....</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="KabSa.jpeg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Arabian Flavours......</h5>
+                    <p style="color: rgb(185, 30, 30); background-color: #f0f0f0;">Savor the Essence of Arabian
+                        Hospitality in Every Bite...</p>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    <br>
+    <div class="d-grid gap-2 col-6 mx-auto"><button style="color: #121213; " type="button" class="btn btn btn-primary"
+            onclick="scrollToMenu()">Are You Looking for Menu?...</button></div>
+
+    <div id="chinese" class="container"
+        style="display: block;flex-wrap: wrap; justify-content: space-between; align-content: space-between; background-color: #c6d8f3; padding: 20px; margin: 20px auto; max-width: 1500px;">
+        <h1>Chinese Cuisine</h1>
+        <br>
+        <h2>Overview</h2>
+        <p>Chinese cuisine is one of the most diverse and flavorful culinary traditions in the world. With its long
+            history, cultural significance, and regional variations, Chinese cuisine offers a rich array of tastes,
+            textures, and aromas.</p>
+
+        <br>
+        <h2>Key Features</h2>
+        <h3>Regional Diversity</h3>
+        <p>Chinese cuisine varies greatly by region. Some notable regional cuisines include:</p>
+        <ul>
+            <li class="item">Cantonese: Known for its dim sum, seafood, and mild, fresh flavors.</li>
+            <li class="item">Sichuan: Famous for its bold, spicy flavors and use of Sichuan peppercorns.</li>
+            <li class="item">Shandong: Emphasizes fresh ingredients and hearty dishes, often with a salty flavor
+                profile.</li>
+            <li class="item">Hunan: Similar to Sichuan, but even spicier, with a focus on fresh chili peppers.</li>
+            <li class="item">Jiangsu: Known for its sophisticated techniques and lightly sweet flavors.</li>
+            <li class="item">Zhejiang: Features fresh, clean flavors with an emphasis on seafood.</li>
+        </ul>
+
+        <h3>Ingredients</h3>
+        <p>Common ingredients in Chinese cuisine include:</p>
+        <ul>
+            <li class="item">Staples: Rice, noodles, tofu.</li>
+            <li class="item">Proteins: Pork, chicken, beef, duck, seafood.</li>
+            <li class="item">Vegetables: Bok choy, cabbage, mushrooms, bamboo shoots, water chestnuts.</li>
+            <li class="item">Seasonings: Soy sauce, hoisin sauce, oyster sauce, rice vinegar, sesame oil.</li>
+            <li class="item">Spices: Garlic, ginger, star anise, cloves, cinnamon, Sichuan peppercorns.</li>
+        </ul>
+
+        <h3>Cooking Techniques</h3>
+        <p>Popular cooking techniques include stir-frying, steaming, deep-frying, braising, and roasting.</p>
+
+        <h3>Popular Dishes</h3>
+        <p>Some well-known dishes are:</p>
+        <ul>
+            <li class="item">Dim Sum</li>
+            <li class="item">Sweet and Sour Pork</li>
+            <li class="item">Kung Pao Chicken</li>
+            <li class="item">Mapo Tofu</li>
+            <li class="item">Peking Duck</li>
+            <li class="item">Hot Pot</li>
+        </ul>
+
+        <h3>Cultural Significance</h3>
+        <p>Chinese cuisine is deeply embedded in cultural traditions, with many dishes carrying symbolic meanings and
+            playing crucial roles in festivals and family gatherings.</p>
+    </div>
+    <br>
+    <div id="indian" class="container"
+        style="display: block;flex-wrap: wrap; justify-content: space-between; align-content: space-between; background-color: #b48686; padding: 20px; margin: 20px auto; max-width: 1500px;">
+        <h1>Indian Cuisine</h1>
+        <br>
+        <h2>Overview</h2>
+        <p>Indian cuisine is renowned for its diverse flavors, rich aromas, and a wide variety of regional specialties.
+            With a deep historical significance, Indian food reflects the country's vast culture and traditions,
+            offering an array of tastes and textures that cater to every palate.</p>
+
+        <br>
+        <h2>Key Features</h2>
+        <h3>Regional Diversity</h3>
+        <p>Indian cuisine varies significantly across regions. Some notable regional cuisines include:</p>
+        <ul>
+            <li class="item">North Indian: Known for its rich gravies, breads (like naan and roti), and dishes such as
+                butter chicken and biryani.</li>
+            <li class="item">South Indian: Famous for its rice-based dishes, dosas, idlis, and a variety of chutneys and
+                sambar.</li>
+            <li class="item">East Indian: Features sweet and spicy flavors, with dishes like fish curry and pakhala
+                (fermented rice).</li>
+            <li class="item">West Indian: Known for its vibrant curries, snacks, and sweets, including dishes like
+                dhokla and pav bhaji.</li>
+            <li class="item">Central Indian: Emphasizes wholesome meals with staples like bhindi (okra) and lentils.
+            </li>
+            <li class="item">Northeast Indian: Offers unique flavors with dishes such as bamboo shoots and fermented
+                foods.</li>
+        </ul>
+
+        <h3>Ingredients</h3>
+        <p>Common ingredients in Indian cuisine include:</p>
+        <ul>
+            <li class="item">Staples: Rice, wheat, millet</li>
+            <li class="item">Proteins: Chicken, mutton, fish, legumes (dal).</li>
+            <li class="item">Vegetables: Potatoes, spinach, okra, eggplant, and a variety of seasonal vegetables.</li>
+            <li class="item">Seasonings: Spices like turmeric, cumin, coriander, garam masala, and mustard seeds.</li>
+            <li class="item">Herbs: Fresh cilantro, mint, and curry leaves.</li>
+        </ul>
+
+        <h3>Cooking Techniques</h3>
+        <p>Popular cooking techniques include roasting, frying, steaming, and slow cooking, often using traditional
+            methods such as tandoor baking.</p>
+
+        <h3>Popular Dishes</h3>
+        <p>Some well-known dishes are:</p>
+        <ul>
+            <li class="item">Biryani</li>
+            <li class="item">Tandoori Chicken</li>
+            <li class="item">Palak Paneer</li>
+            <li class="item">Butter Chicken</li>
+            <li class="item">Chole Bhature</li>
+            <li class="item">Samosa</li>
+        </ul>
+
+        <h3>Cultural Significance</h3>
+        <p>Indian cuisine is deeply intertwined with cultural traditions, with many dishes symbolizing festivals,
+            celebrations, and family gatherings, showcasing the country's rich heritage.</p>
+    </div>
+    <br>
+    <div id="srilankan" class="container"
+        style="display: block;flex-wrap: wrap; justify-content: space-between; align-content: space-between; background-color: #cecc6b; padding: 20px; margin: 20px auto; max-width: 1500px;">
+        <h1>Sri Lankan Cuisine</h1>
+        <br>
+        <h2>Overview</h2>
+        <p>Sri Lankan cuisine is a vibrant tapestry of flavors and aromas, deeply influenced by the island's diverse
+            cultures, geography, and history. It showcases a rich array of spices and ingredients that reflect the
+            island's agricultural heritage and coastal bounty.</p>
+
+        <br>
+        <h2>Key Features</h2>
+        <h3>Regional Diversity</h3>
+        <p>Sri Lankan cuisine varies across its regions, with notable specialties including:</p>
+        <ul>
+            <li class="item">Coastal Cuisine: Known for its fresh seafood dishes, often prepared with aromatic spices
+                and coconut milk.</li>
+            <li class="item">Hill Country Cuisine: Features hearty vegetable curries, rice, and unique dishes such as
+                kottu roti, a popular street food.</li>
+            <li class="item">North and East Cuisine: Influenced by Tamil traditions, emphasizing rice-based meals and
+                spicy preparations like fish curry.</li>
+
+        </ul>
+
+        <h3>Ingredients</h3>
+        <p>Common ingredients in Sri Lankan cuisine include:</p>
+        <ul>
+            <li class="item">Staples: Rice, lentils, and various types of flour.</li>
+            <li class="item">Proteins: Chicken, fish, pork, and a variety of seafood.</li>
+            <li class="item">Vegetables: Eggplant, okra, pumpkin, and leafy greens.</li>
+            <li class="item">Seasonings: A wide array of spices including cinnamon, cardamom, curry powder, and chili
+                powder.</li>
+            <li class="item">Herbs: Fresh coriander and curry leaves.</li>
+        </ul>
+
+        <h3>Cooking Techniques</h3>
+        <p>Popular cooking techniques include sautéing, steaming, and slow-cooking, often using traditional clay pots to
+            enhance flavors.</p>
+
+        <h3>Popular Dishes</h3>
+        <p>Some well-known dishes are:</p>
+        <ul>
+            <li class="item">Rice and Curry</li>
+            <li class="item">Kottu Roti</li>
+            <li class="item">Hoppers (Appa)</li>
+            <li class="item">Fish Ambul Thiyal</li>
+            <li class="item">Dhal Curry</li>
+            <li class="item">Pol Sambol</li>
+        </ul>
+
+        <h3>Cultural Significance</h3>
+        <p>Indian cuisine is deeply intertwined with cultural traditions, with many dishes symbolizing festivals,
+            celebrations, and family gatherings, showcasing the country's rich heritage.</p>
+    </div>
+    <br>
+    <div id="arabian" class="container"
+        style="display: block;flex-wrap: wrap; justify-content: space-between; align-content: space-between; background-color: #a390c7; padding: 20px; margin: 20px auto; max-width: 1500px;">
+        <h1>Arabian Cuisine</h1>
+        <br>
+        <h2>Overview</h2>
+        <p>Arabian cuisine is a rich and diverse culinary tradition that reflects the cultural heritage of the Arab
+            world. Known for its bold flavors and aromatic spices, it combines a variety of ingredients to create
+            memorable dishes that are enjoyed across the region.</p>
+
+        <br>
+        <h2>Key Features</h2>
+        <h3>Regional Diversity</h3>
+        <p>Arabian cuisine varies by country and region, with notable specialties including:</p>
+        <ul>
+            <li class="item">Levantine Cuisine: Famous for dishes like hummus, tabbouleh, and shawarma, often featuring
+                fresh herbs and vegetables.</li>
+            <li class="item">Gulf Cuisine: Known for its rice dishes such as kabsa and machboos, often accompanied by
+                grilled meats and rich spices.</li>
+            <li class="item">North African Cuisine: Features tagines and couscous, incorporating a mix of spices and
+                slow-cooking techniques.</li>
+
+        </ul>
+
+        <h3>Ingredients</h3>
+        <p>Common ingredients in Arabian cuisine include:</p>
+        <ul>
+            <li class="item">Staples: Rice, bulgur, and flatbreads like pita and khubz.</li>
+            <li class="item">Proteins: Lamb, chicken, beef, and a variety of seafood.</li>
+            <li class="item">Vegetables: Tomatoes, cucumbers, eggplants, and chickpeas.</li>
+            <li class="item">Seasonings: A wide range of spices including cumin, coriander, sumac, and saffron.</li>
+            <li class="item">Herbs: Fresh parsley, mint, and cilantro.</li>
+        </ul>
+
+        <h3>Cooking Techniques</h3>
+        <p>Popular cooking techniques include grilling, roasting, and slow-cooking, often using traditional methods to
+            enhance the flavors of the dishes.</p>
+
+        <h3>Popular Dishes</h3>
+        <p>Some well-known dishes are:</p>
+        <ul>
+            <li class="item">Shawarma</li>
+            <li class="item">Hummus</li>
+            <li class="item">Falafel</li>
+            <li class="item">Kabsa</li>
+            <li class="item">Mandi</li>
+            <li class="item">Tabbouleh</li>
+        </ul>
+
+        <h3>Cultural Significance</h3>
+        <p>Arabian cuisine plays a vital role in cultural celebrations and gatherings, with many dishes symbolizing
+            hospitality and community, reflecting the rich heritage of the Arab world.</p>
+    </div>
+    <br>
+    <div style="background-color: #121213;" class="container text-center">
+        <h1 style="color: #f0f0f0;">Available Menu</h1>
+        <button type="button" class="btn btn-primary project-btn" data-bs-toggle="modal"
+            data-bs-target="#projectModal1">
+            View Chinese Cuisine
+        </button>
+        <button type="button" class="btn btn-primary project-btn" data-bs-toggle="modal"
+            data-bs-target="#projectModal2">
+            View Indian Cuisine
+        </button>
+        <button type="button" class="btn btn-primary project-btn" data-bs-toggle="modal"
+            data-bs-target="#projectModal3">
+            View Sri Lankan Cuisine
+        </button>
+        <button type="button" class="btn btn-primary project-btn" data-bs-toggle="modal"
+            data-bs-target="#projectModal4">
+            View Arabian Cuisine
+        </button>
+
+        <div class="modal fade" id="projectModal1" tabindex="-1" aria-labelledby="projectModalLabel1"
+            aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="projectModalLabel1">Chinese Cuisine</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <h2>Available Menu</h2>
+                        <ul class="align-left">
+                            <li>Spring Rolls</li>
+                            <li>Fried Rice</li>
+                            <li>Kung Pao Chicken</li>
+                            <li>Dim Sum</li>
+                            <li>Mapo Tofu</li>
+                            <li>Peking Duck</li>
+                        </ul>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="modal fade" id="projectModal2" tabindex="-1" aria-labelledby="projectModalLabel2"
+            aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="projectModalLabel2">Indian Cuisine</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <h2>Available Menu</h2>
+                        <ul class="align-left">
+                            <li>Biryani</li>
+                            <li>Tandoori Chicken</li>
+                            <li>Palek Paneer</li>
+                            <li>Butter Chicken</li>
+                            <li>Chole Bhature</li>
+                            <li>Samosa</li>
+                        </ul>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="modal fade" id="projectModal3" tabindex="-1" aria-labelledby="projectModalLabel3" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="projectModalLabel3">Sri Lankan Cuisine</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <h2>Available Menu</h2>
+                    <ul class="align-left">
+                        <li>Rice and Curry</li>
+                        <li>Kottu Rotti</li>
+                        <li>Hoppers</li>
+                        <li>Dhal Curry</li>
+
+                    </ul>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="modal fade" id="projectModal4" tabindex="-1" aria-labelledby="projectModalLabel2" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="projectModalLabel4">Arabian Cuisine</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <h2>Available Menu</h2>
+                    <ul class="align-left">
+                        <li>Shawarma</li>
+                        <li>Hummus</li>
+                        <li>Falafel</li>
+                        <li>Kabsa</li>
+                        <li>Mandi</li>
+
+                    </ul>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <div id="menu" class="container mt-5"></div>
+    <script>
+        function scrollToMenu() {
+            document.getElementById('menu').scrollIntoView({ behavior: 'smooth' });
+        }
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <footer>
+        &copy; 2024 My Kitchen. All rights reserved.
+    </footer>
+</body>
+
+</html>
